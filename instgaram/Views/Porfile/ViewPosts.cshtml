@@ -1,0 +1,39 @@
+﻿@model IEnumerable<instgaram.Models.post>
+
+@{
+    ViewBag.Title = "ViewPosts";
+}
+
+<h2>Posts and Likes</h2>
+
+@foreach (var item in Model)
+
+{
+
+    <p>@item.user.FName @item.user.LName</p>
+    <img src="@item.photo" height="300" />
+    <br />
+    <div>
+
+        <button onclick="LikesCount()">Like</button>
+        <br />
+        <br />
+        <div id="@item.Id"></div>
+        <br />
+        <br />
+    </div>
+
+}
+@foreach (var item in Model)
+{
+    <script type=text/javascript>
+    function LikesCount()
+    {
+        var x = 0;
+        x += 1;
+        document.getElementById("@item.Id").innerHTML = x;
+    }
+    </script>
+    <br />
+    
+}

@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1831
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "instgaram", "instgaram\instgaram.csproj", "{B71D9A93-23A9-4549-9FA6-80E6C301CD7F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Registration And Login", "Registration And Login", "{BE2191E2-872E-47A1-A14F-B11F0292CFC9}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Registeration and login\RegistrationAndLogin.sln = ..\..\Registeration and login\RegistrationAndLogin.sln
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegistrationAndLogin", "..\..\Registeration and login\RegistrationAndLogin\RegistrationAndLogin.csproj", "{A919A2A1-8CFD-400E-AC8D-59B6B476E205}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B71D9A93-23A9-4549-9FA6-80E6C301CD7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B71D9A93-23A9-4549-9FA6-80E6C301CD7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B71D9A93-23A9-4549-9FA6-80E6C301CD7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B71D9A93-23A9-4549-9FA6-80E6C301CD7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A919A2A1-8CFD-400E-AC8D-59B6B476E205}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A919A2A1-8CFD-400E-AC8D-59B6B476E205}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A919A2A1-8CFD-400E-AC8D-59B6B476E205}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A919A2A1-8CFD-400E-AC8D-59B6B476E205}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {41155BFD-2B8E-4360-BC2C-03CA50ABF3FD}
+	EndGlobalSection
+EndGlobal

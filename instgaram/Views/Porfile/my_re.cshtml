@@ -1,0 +1,15 @@
+﻿@model IList<instgaram.Models.friend_re>
+
+@{
+    ViewBag.Title = "Sent Requests";
+}
+
+@{ 
+    foreach(var item in Model)
+    {
+        <img src="@item.resever.Photo" height="100px" />
+        <h3>@item.resever.FName @item.resever.LName</h3>
+        <h5><a href="/porfile/cancle/@item.resever.Id">cancle</a></h5>
+    }
+}
+

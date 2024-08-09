@@ -1,0 +1,51 @@
+﻿@{
+    ViewBag.Title = "Sign up";
+}
+<br />
+<br /><br />
+<h3 style="margin-left: 400px;">Sign up</h3>
+<br />
+
+<form method="post" action="/Home/Signup" enctype="multipart/form-data" style="margin-left: 320px;">
+    <table>
+        <tr>
+            <td> <label>Frist Name</label></td>
+            <td><input type="text" name="Fname" /></td>
+        </tr>
+
+        <tr>
+            <td><labe>Last Name</labe></td>
+            <td><input type="text" name="Lname" /></td>
+        </tr>
+
+        <tr>
+            <td><label>Photo</label></td>
+            <td><input type="file" name="photo" /></td>
+        </tr>
+
+        <tr>
+            <td><label>Phone</label></td>
+            <td><input type="text" name="Phone" /></td>
+        </tr>
+
+        <tr>
+            <td> <label>Username</label></td>
+            <td> <input type="text" name="username" /></td>
+        </tr>
+
+        <tr>
+            <td> <label>Password</label></td>
+            <td> <input type="password" name="password" /> </td>
+        </tr>
+
+        <tr>
+            <td> <label>Confirm password</label></td>
+            <td> <input type="password" name="repassword" /></td>
+        </tr>
+
+    </table>
+    <br />
+    <input style="margin-left: 165px" type="submit" value="Sign up" />
+    <hr /><h5 style="margin-left: 135px;">if you have an account</h5><br />
+    <a href="/Home/Index"><input style="margin-left: 165px;" type="button" value="Login" /></a>
+</form>

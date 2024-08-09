@@ -1,0 +1,54 @@
+﻿@{
+    ViewBag.Title = "Log in";
+}
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<h3 style="margin-left: 400px;">Log in</h3>
+<form method="post" action="/Home/index" style="top: 50px; left:auto; margin: 35px 45px;">
+    <div class="row">
+
+        <div class="col-sm-12">
+            <div class="col-sm-2">
+                <label class="col-sm-2" style="font-size: 25px;margin-left: 115px;" for="usr">UserName</label>
+            </div>
+
+            <div class="col-sm-10">
+                <input style="margin-bottom: 40px;margin-left: 115px;" id="usr" placeholder="enter username" type="text" name="username" class="col-sm-6" />
+            </div>
+
+            <div class="col-sm-12">
+                <div class="col-sm-2">
+                    <label class="col-sm-2" style="font-size: 25px;margin-left: 100px;" for="pass">Password</label>
+                </div>
+
+                <div class="col-sm-10">
+                    <input style="margin-bottom: 30px;margin-left: 100px;" type="password" id="pass" placeholder="enter password" name="password" class="col-sm-8" />
+                </div>
+            </div>
+            <br />
+            <br />
+            <br />
+            <div class="col-sm-12">
+                <div class="col-sm-2">
+                    <label class="col-sm-2"></label>
+                </div>
+
+                <div class="col-sm-2">
+                    <input style="margin-left: 135px;" type="submit" value="Login" />
+
+                </div>
+                <br />
+                <span><hr /><h3 style="margin-left: 320px;">OR</h3></span>
+                <sapn>
+                    <div class="col-sm-5">
+                        <a href="/Home/Signup"><input style="margin-left: 300px;" type="button" value="Sign up" /></a>
+                    </div>
+                </sapn><br />
+                <hr />
+            </div>
+        </div>
+</form>
